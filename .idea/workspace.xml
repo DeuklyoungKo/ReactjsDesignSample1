@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bd8b22c-b251-482c-8677-bbf3c6d63f5e" name="Default Changelist" comment="basic set">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/btn-learn-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/btn-live-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/demo-preview.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/quill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/range-date-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/add-new-post/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/add-new-post/SidebarActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/add-new-post/SidebarCategories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/blog/Discussions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/blog/NewDraft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/blog/UsersByDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/blog/UsersOverview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/CountryReports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/PageTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/RangeDatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SmallStats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/TopReferrals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/ButtonGroups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/Checkboxes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/Colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/CompleteFormExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/CustomFileUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/CustomSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/DropdownInputGroups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/FormValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/Forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/InputGroups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/NormalButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/NormalOutlineButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/ProgressBars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/RadioButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/SeamlessInputGroups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/Sliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/SmallButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/SmallOutlineButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/components-overview/ToggleButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavbar/MainNavbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavbar/NavbarNav/NavbarNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavbar/NavbarNav/Notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavbar/NavbarNav/UserActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavbar/NavbarSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainNavbar/NavbarToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainSidebar/MainSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainSidebar/SidebarMainNavbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainSidebar/SidebarNavItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainSidebar/SidebarNavItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/MainSidebar/SidebarSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user-profile-lite/UserAccountDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user-profile-lite/UserDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/sidebar-nav-items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flux/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flux/dispatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flux/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/avatars/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/content-management/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/file-manager/document-preview-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/flags/flag-au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/flags/flag-jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/flags/flag-uk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/flags/flag-us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/no-product-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-basics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-order-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-order-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-order-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-shoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-sportswear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sales-overview/product-sweaters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-royal-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-salmon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/user-profile/team-thumb-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/user-profile/team-thumb-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/user-profile/team-thumb-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/user-profile/up-user-details-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/add-new-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/assets/btn-documentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/assets/btn-learn-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/assets/btn-live-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/assets/demo-preview.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/assets/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/components-blog-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/errors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/form-components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/avatars/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/avatars/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/avatars/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/avatars/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/content-management/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/shards-dashboards-logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/shards-dashboards-logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/shards-dashboards-logo-secondary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/shards-dashboards-logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/shards-dashboards-logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/images/shards-dashboards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/app/app-blog-new-post.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/app/app-blog-new-post.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/app/app-blog-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/app/app-blog-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/app/app-components-overview.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/app/app-components-overview.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/extras.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/shards-dashboards.1.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/shards-dashboards.1.1.0.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/scripts/shards-dashboards.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/danger.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/danger.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/info.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/info.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/secondary.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/secondary.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/success.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/success.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/warning.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/accents/warning.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/extras.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_custom-sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/accent-variations/danger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/accent-variations/info.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/accent-variations/secondary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/accent-variations/success.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/accent-variations/warning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/blocks/_main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/blocks/_main-footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/blocks/_main-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/blocks/_main-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/blocks/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/components/_card-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/components/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/plugins/_quill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/shards-dashboards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/templates/_blog-add-new-post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/templates/_blog-overview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/templates/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/utilities/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/shards-dashboards.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/styles/shards-dashboards.1.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/user-profile-lite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shards-dashboard/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AddNewPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/BlogOverview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/BlogPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ComponentsOverview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/UserProfileLite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/withTracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="reactjs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>value</find>
+      <find>inData</find>
+      <find>xAxisObj</find>
+      <find>width</find>
+      <find>margin</find>
+      <find>configValue</find>
+      <find>x</find>
+      <find>xAxis</find>
+      <find>domain</find>
+      <find>svgHeight</find>
+      <find>svgWidth</find>
+      <find>.chart</find>
+      <find>state</find>
+      <find>dataVal</find>
+      <find>labelData</find>
+      <find>set</find>
+      <find>=</find>
+      <find>dataIndex</find>
+      <find>.call(xAxis)</find>
+      <find>blog-overview</find>
+      <find>Route</find>
+      <find>2,390</find>
+      <find>Users Overview</find>
+      <find>data_basic</find>
+      <find>dataArray</find>
+      <find>durationSec</find>
+      <find>height</find>
+      <find>enableSourceMaps</find>
+      <find>clean</find>
+      <find>eslint</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>let</replace>
+      <replace>~bootstrap-sass/assets/stylesheets/</replace>
+      <replace>~bootstrap-sass/assets/stylesheets/bootstrap/</replace>
+      <replace>styleLoader</replace>
+      <replace>(t2)</replace>
+      <replace>inData</replace>
+      <replace>dataArray</replace>
+      <replace>data</replace>
+      <replace>svgWidth</replace>
+      <replace>svgHeight</replace>
+      <replace>:</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/svg.html" />
+        <option value="$PROJECT_DIR$/public/bar6.html" />
+        <option value="$PROJECT_DIR$/public/axis.html" />
+        <option value="$PROJECT_DIR$/public/svg2.html" />
+        <option value="$PROJECT_DIR$/public/chart.html" />
+        <option value="$PROJECT_DIR$/public/tran.html" />
+        <option value="$PROJECT_DIR$/public/tran2.html" />
+        <option value="$PROJECT_DIR$/public/bar8.html" />
+        <option value="$PROJECT_DIR$/public/data1.csv" />
+        <option value="$PROJECT_DIR$/public/bar7.html" />
+        <option value="$PROJECT_DIR$/public/promise.html" />
+        <option value="$PROJECT_DIR$/public/await.html" />
+        <option value="$PROJECT_DIR$/public/tran4.html" />
+        <option value="$PROJECT_DIR$/public/tran5.html" />
+        <option value="$PROJECT_DIR$/public/temp8.html" />
+        <option value="$PROJECT_DIR$/public/t.html" />
+        <option value="$PROJECT_DIR$/public/temp4.html" />
+        <option value="$PROJECT_DIR$/public/tran7.html" />
+        <option value="$PROJECT_DIR$/public/tran6.html" />
+        <option value="$PROJECT_DIR$/public/tran3.html" />
+        <option value="$PROJECT_DIR$/public/data.csv" />
+        <option value="$PROJECT_DIR$/public/tran9.html" />
+        <option value="$PROJECT_DIR$/public/temp6.html" />
+        <option value="$PROJECT_DIR$/src/chart/D3/index.css" />
+        <option value="$PROJECT_DIR$/src/chart/D3/sample.js" />
+        <option value="$PROJECT_DIR$/src/chart/D3/Sample.js" />
+        <option value="$PROJECT_DIR$/src/chart/D3/SampleApp.js" />
+        <option value="$PROJECT_DIR$/src/Main.js" />
+        <option value="$PROJECT_DIR$/src/chart/D3/BarChart.js" />
+        <option value="$PROJECT_DIR$/public/tran8.html" />
+        <option value="$PROJECT_DIR$/src/views/BlogOverview.js" />
+        <option value="$PROJECT_DIR$/src/components/common/SmallStats.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/config/routes.yaml" />
+        <option value="$PROJECT_DIR$/src/Controller/MainController.php" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/public/build/index.html" />
+        <option value="$PROJECT_DIR$/src/data/Index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/chart/D3/Index.js" />
+        <option value="$PROJECT_DIR$/src/data/data_basic.csv" />
+        <option value="$PROJECT_DIR$/src/chart/D3/BarChartApp.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/assets/js/Main.js" />
+        <option value="$PROJECT_DIR$/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/assets/js/chart/D3/BarChartApp.js" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/templates/main/index.html.twig" />
+        <option value="$PROJECT_DIR$/.env" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="891" />
+    <option name="y" value="29" />
+    <option name="width" value="1035" />
+    <option name="height" value="972" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="237" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="237" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="237" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="237" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="236" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\PHP\docker\var\www\reactjs\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="D:\PHP\docker\var\www\reactjs\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="D:\utils\PhpStorm\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/assets/js/RepLog/RepLogCreatorControlledComponents.js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PHP\docker\var\www\reactjs" />
+      <recent name="D:\PHP\docker\var\www\reactjs\assets" />
+      <recent name="D:\PHP\docker\var\www\reactjs\public" />
+      <recent name="D:\PHP\docker\var\www\reactjs\assets\js" />
+      <recent name="D:\PHP\docker\var\www\reactjs\src\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PHP\docker\var\www\reactjs\public" />
+      <recent name="D:\PHP\docker\var\www\reactjs\src" />
+      <recent name="D:\PHP\docker\var\www\reactjs\src\chart\D3" />
+      <recent name="D:\PHP\docker\var\www\reactjs\src\data" />
+      <recent name="D:\PHP\docker\var\www\reactjs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bd8b22c-b251-482c-8677-bbf3c6d63f5e" name="Default Changelist" comment="" />
+      <created>1552325816649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552325816649</updated>
+      <workItem from="1552325817771" duration="8892000" />
+      <workItem from="1552446087399" duration="55000" />
+      <workItem from="1552446243332" duration="4767000" />
+      <workItem from="1553926553011" duration="5660000" />
+      <workItem from="1553973329326" duration="1782000" />
+      <workItem from="1554017354979" duration="44771000" />
+      <workItem from="1554610509186" duration="3675000" />
+      <workItem from="1554803403355" duration="593000" />
+      <workItem from="1554964579060" duration="3725000" />
+      <workItem from="1555159135139" duration="2090000" />
+      <workItem from="1555356708466" duration="11266000" />
+      <workItem from="1555481682573" duration="6362000" />
+      <workItem from="1555755349146" duration="14603000" />
+      <workItem from="1556167982885" duration="9691000" />
+      <workItem from="1556462694430" duration="13223000" />
+      <workItem from="1556694331931" duration="651000" />
+      <workItem from="1556702778816" duration="1223000" />
+      <workItem from="1556724094866" duration="17181000" />
+      <workItem from="1557224718627" duration="537000" />
+      <workItem from="1557234349882" duration="15509000" />
+      <workItem from="1557379296361" duration="56096000" />
+      <workItem from="1557729926199" duration="2528000" />
+      <workItem from="1557749976763" duration="1476000" />
+      <workItem from="1557753916899" duration="6903000" />
+      <workItem from="1557881179994" duration="2700000" />
+      <workItem from="1557902621496" duration="109881000" />
+      <workItem from="1558605618323" duration="110867000" />
+      <workItem from="1559367587567" duration="273500000" />
+      <workItem from="1561110503174" duration="54948000" />
+      <workItem from="1561274352076" duration="1623000" />
+      <workItem from="1561291639401" duration="47548000" />
+      <workItem from="1561450098399" duration="43241000" />
+      <workItem from="1561706458050" duration="60309000" />
+      <workItem from="1561812071532" duration="101292000" />
+      <workItem from="1562149960392" duration="29214000" />
+      <workItem from="1562350793876" duration="7422000" />
+    </task>
+    <task id="LOCAL-00141" summary="chapter 43&#10;(https://symfonycasts.com/screencast/reactjs)">
+      <created>1560695581882</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1560695581882</updated>
+    </task>
+    <task id="LOCAL-00142" summary="to set git ignore for Phpstorm setting file">
+      <created>1560698313314</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1560698313314</updated>
+    </task>
+    <task id="LOCAL-00143" summary="chapter 7&#10;(https://opentutorials.org/module/4058)">
+      <created>1560708949521</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1560708949521</updated>
+    </task>
+    <task id="LOCAL-00144" summary="chapter 8&#10;(https://opentutorials.org/module/4058)">
+      <created>1560709205189</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1560709205189</updated>
+    </task>
+    <task id="LOCAL-00145" summary="chapter 9&#10;(https://opentutorials.org/module/4058)">
+      <created>1560709580335</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1560709580335</updated>
+    </task>
+    <task id="LOCAL-00146" summary="chapter 10&#10;(https://opentutorials.org/module/4058)">
+      <created>1560712301613</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1560712301613</updated>
+    </task>
+    <task id="LOCAL-00147" summary="chapter 11&#10;(https://opentutorials.org/module/4058)">
+      <created>1560713174023</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1560713174023</updated>
+    </task>
+    <task id="LOCAL-00148" summary="chapter 12&#10;(https://opentutorials.org/module/4058)">
+      <created>1560715283202</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1560715283202</updated>
+    </task>
+    <task id="LOCAL-00149" summary="chapter 14&#10;(https://opentutorials.org/module/4058)">
+      <created>1560716192809</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1560716192809</updated>
+    </task>
+    <task id="LOCAL-00150" summary="chapter 15&#10;(https://opentutorials.org/module/4058)">
+      <created>1560718073396</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1560718073396</updated>
+    </task>
+    <task id="LOCAL-00151" summary="chapter 16.1&#10;(https://opentutorials.org/module/4058)">
+      <created>1560719016588</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1560719016588</updated>
+    </task>
+    <task id="LOCAL-00152" summary="chapter 16.2&#10;(https://opentutorials.org/module/4058)">
+      <created>1560719898407</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1560719898407</updated>
+    </task>
+    <task id="LOCAL-00153" summary="chapter 16.3&#10;(https://opentutorials.org/module/4058)">
+      <created>1560721426439</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1560721426439</updated>
+    </task>
+    <task id="LOCAL-00154" summary="chapter 17.2&#10;(https://opentutorials.org/module/4058)">
+      <created>1560724592800</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1560724592800</updated>
+    </task>
+    <task id="LOCAL-00155" summary="chapter 17.3&#10;(https://opentutorials.org/module/4058)">
+      <created>1560726260540</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1560726260540</updated>
+    </task>
+    <task id="LOCAL-00156" summary="chapter 18&#10;(https://opentutorials.org/module/4058)">
+      <created>1560727369356</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1560727369356</updated>
+    </task>
+    <task id="LOCAL-00157" summary="chapter 19.3&#10;(https://opentutorials.org/module/4058)">
+      <created>1560754274267</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1560754274267</updated>
+    </task>
+    <task id="LOCAL-00158" summary="chapter 19.4&#10;(https://opentutorials.org/module/4058)">
+      <created>1560758270831</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1560758270832</updated>
+    </task>
+    <task id="LOCAL-00159" summary="chapter 19.7&#10;(https://opentutorials.org/module/4058)">
+      <created>1560764283351</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1560764283351</updated>
+    </task>
+    <task id="LOCAL-00160" summary="chapter 20.2&#10;(https://opentutorials.org/module/4058)">
+      <created>1560768652417</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1560768652417</updated>
+    </task>
+    <task id="LOCAL-00161" summary="chapter 20.3&#10;(https://opentutorials.org/module/4058)">
+      <created>1560868490035</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1560868490035</updated>
+    </task>
+    <task id="LOCAL-00162" summary="chapter 21 delete (final chapter)&#10;(https://opentutorials.org/module/4058)">
+      <created>1560883084362</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1560883084363</updated>
+    </task>
+    <task id="LOCAL-00163" summary="to add gitignore">
+      <created>1561005853606</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1561005853606</updated>
+    </task>
+    <task id="LOCAL-00164" summary="to start chartjs&#10;(https://www.chartjs.org/docs/latest/getting-started/installation.html)">
+      <created>1561005962714</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1561005962715</updated>
+    </task>
+    <task id="LOCAL-00165" summary="chartjs - to finish setting &#10;(https://www.chartjs.org/docs/latest/getting-started/installation.html)">
+      <created>1561027362240</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1561027362240</updated>
+    </task>
+    <task id="LOCAL-00166" summary="chartjs - to finish default test for statistics&#10;(https://www.chartjs.org/docs/latest/getting-started/installation.html)">
+      <created>1561116883052</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1561116883052</updated>
+    </task>
+    <task id="LOCAL-00167" summary="React-Vis - to start React-Vis&#10;(http://uber.github.io/react-vis/documentation/getting-started/installing-react-vis)">
+      <created>1561166702944</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1561166702944</updated>
+    </task>
+    <task id="LOCAL-00168" summary="add Chartjs basic">
+      <created>1561188502436</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1561188502436</updated>
+    </task>
+    <task id="LOCAL-00169" summary="react-vis basic finished">
+      <created>1561230571856</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1561230571856</updated>
+    </task>
+    <task id="LOCAL-00170" summary="c3.js basic finished">
+      <created>1561363575473</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1561363575473</updated>
+    </task>
+    <task id="LOCAL-00171" summary="to start D3.js&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561412883529</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1561412883529</updated>
+    </task>
+    <task id="LOCAL-00172" summary="to start D3.js&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561412910283</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1561412910283</updated>
+    </task>
+    <task id="LOCAL-00173" summary="D3 - Simple Bar Chart Video Tutorial finished&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561447849453</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1561447849453</updated>
+    </task>
+    <task id="LOCAL-00174" summary="D3 - Let’s Make a Bar Chart, Parts I, II is finished&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561458913338</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1561458913339</updated>
+    </task>
+    <task id="LOCAL-00175" summary="D3 - Let’s Make a Bar Chart, Parts III is finished&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561469244643</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1561469244643</updated>
+    </task>
+    <task id="LOCAL-00176" summary="D3 - Let’s Make a Bar Chart, Parts III is finished (debug)&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561471069627</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1561471069627</updated>
+    </task>
+    <task id="LOCAL-00177" summary="D3 - D3 basic&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561726230546</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1561726230546</updated>
+    </task>
+    <task id="LOCAL-00178" summary="D3 - D3 basic2&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1561743276821</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1561743276821</updated>
+    </task>
+    <task id="LOCAL-00179" summary="D3 - D3 basic3&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1562041633956</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1562041633956</updated>
+    </task>
+    <task id="LOCAL-00180" summary="D3 - D3 basic4&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1562051241227</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1562051241227</updated>
+    </task>
+    <task id="LOCAL-00181" summary="D3 - D3 basic is finished&#10;(https://github.com/d3/d3/wiki/Tutorials)">
+      <created>1562062340438</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1562062340438</updated>
+    </task>
+    <task id="LOCAL-00182" summary="basic setting of Symfony4&#10;(https://symfony.com/doc/current/setup.html)">
+      <created>1562069364766</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1562069364766</updated>
+    </task>
+    <task id="LOCAL-00183" summary="basic setting of Encore&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)">
+      <created>1562070833778</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1562070833778</updated>
+    </task>
+    <task id="LOCAL-00184" summary="basic setting of Encore again&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)">
+      <created>1562071401608</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1562071401608</updated>
+    </task>
+    <task id="LOCAL-00185" summary="basic setting of eslint (#1)&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)">
+      <created>1562148052253</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1562148052253</updated>
+    </task>
+    <task id="LOCAL-00186" summary="to test react setting with Symfony4&#10;&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)">
+      <created>1562152929878</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1562152929878</updated>
+    </task>
+    <task id="LOCAL-00187" summary="change csv file path option">
+      <created>1562318175174</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1562318175174</updated>
+    </task>
+    <task id="LOCAL-00188" summary="starting to add Reactjs source">
+      <created>1562322409436</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1562322409436</updated>
+    </task>
+    <task id="LOCAL-00189" summary="finished the basic Symfony4+Reactjs+D3js">
+      <created>1562350197173</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1562350197173</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1075804000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="891" y="29" width="1035" height="972" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.50281423" side_tool="true" weight="0.30564103" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49718574" visible="true" weight="0.31794873" />
+      <window_info id="Structure" order="2" sideWeight="0.50281423" side_tool="true" weight="0.30564103" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.3293556" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32816228" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" x="263" y="343" width="472" height="361" id="Event Log" order="3" sideWeight="0.5005291" side_tool="true" type="SLIDING" weight="0.39804772" />
+      <window_info anchor="bottom" x="921" y="300" width="975" height="305" id="Version Control" order="4" weight="0.398568" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32577565" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3293556" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4994709" weight="0.39842874" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32816228" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3293556" />
+      <window_info anchor="bottom" id="TypeScript" order="14" weight="0.3293556" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32970297" />
+      <window_info anchor="right" id="Remote Host" order="1" weight="0.18217821" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.24926972" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chartjs - to finish setting &#10;(https://www.chartjs.org/docs/latest/getting-started/installation.html)" />
+    <MESSAGE value="chartjs - to finish default test for statistics&#10;(https://www.chartjs.org/docs/latest/getting-started/installation.html)" />
+    <MESSAGE value="React-Vis - to start React-Vis&#10;(http://uber.github.io/react-vis/documentation/getting-started/installing-react-vis)" />
+    <MESSAGE value="add Chartjs basic" />
+    <MESSAGE value="react-vis basic finished" />
+    <MESSAGE value="c3.js basic finished" />
+    <MESSAGE value="to start D3.js&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - Simple Bar Chart Video Tutorial finished&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - Let’s Make a Bar Chart, Parts I, II is finished&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - Let’s Make a Bar Chart, Parts III is finished&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - Let’s Make a Bar Chart, Parts III is finished (debug)&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - D3 basic&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - D3 basic2&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - D3 basic3&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - D3 basic4&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="D3 - D3 basic is finished&#10;(https://github.com/d3/d3/wiki/Tutorials)" />
+    <MESSAGE value="basic setting of Symfony4&#10;(https://symfony.com/doc/current/setup.html)" />
+    <MESSAGE value="basic setting of Encore&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)" />
+    <MESSAGE value="basic setting of Encore again&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)" />
+    <MESSAGE value="basic setting of eslint (#1)&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)" />
+    <MESSAGE value="to test react setting with Symfony4&#10;&#10;(https://symfonycasts.com/screencast/webpack-encore/encore-install)" />
+    <MESSAGE value="change csv file path option" />
+    <MESSAGE value="starting to add Reactjs source" />
+    <MESSAGE value="finished the basic Symfony4+Reactjs+D3js" />
+    <MESSAGE value="basic set" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic set" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/withTracker.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router/es/Route.js" />
+    <entry file="file://$PROJECT_DIR$/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js" />
+    <entry file="file://$PROJECT_DIR$/build/index.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/applications.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="171" column="12" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/chart.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/common/SmallStats.js" />
+    <entry file="file://$PROJECT_DIR$/src/views/BlogOverview.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/blog/UsersOverview.js" />
+    <entry file="file://$PROJECT_DIR$/src/routes.js" />
+    <entry file="file://$PROJECT_DIR$/src/views/Tables.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/app.js" />
+    <entry file="file://$PROJECT_DIR$/../../../../templeteDesign/Reactjs/Shards-Dashboard-Lite-React-1.0.0/Source Files/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/IndexController.php" />
+    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#34#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/public/build/index.html" />
+    <entry file="file://$PROJECT_DIR$/public/build/index.cbc11579dca347c60703.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/chart/D3/Index.js" />
+    <entry file="file://$PROJECT_DIR$/src/chart/D3/BarChart.js" />
+    <entry file="file://$PROJECT_DIR$/src/Main.js" />
+    <entry file="file://$PROJECT_DIR$/src/chart/D3/BarChartApp.js" />
+    <entry file="file://$PROJECT_DIR$/public/data/data_basic1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/data/data.csv" />
+    <entry file="file://$PROJECT_DIR$/assets/js/chart/D3/Index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/chart/chartjs/ChartjsIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/chart/C3js/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/layouts/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/chart/D3/BarChart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/chart/D3/BarChartApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#484#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
